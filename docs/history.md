@@ -8,9 +8,11 @@
 - 建立直播人体分割训练工程骨架
 - 固化首版 `MMSeg` 基线方案
 - 新增 `DeepLabV3+ + ResNet50` 训练配置
+- 新增数据目录模板与 `.gitkeep`
 - 新增环境、训练、评估、导出脚本
 - 新增数据检查工具
 - 新增数据规范、实施方案和恢复文档
+- 新增训练机执行说明与实验记录模板
 - 修正 `MMSeg` 运行入口，避免误用不存在的 `mmseg.tools.*` pip 模块
 - 去掉 `openmim` 依赖，改为仓库自带 `Runner` 入口脚本，降低环境复杂度
 - 本机已安装 `torch/mmcv-lite/mmengine/mmsegmentation`

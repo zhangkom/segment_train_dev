@@ -27,6 +27,7 @@
 
 ```text
 configs/live_portrait/           MMSeg 配置
+data/live_portrait/              数据目录模板
 docs/                            方案、规范、历史记录
 scripts/                         环境、训练、评估、导出脚本
 tools/                           数据检查工具
@@ -98,6 +99,8 @@ bash scripts/export_onnx.sh work_dirs/live_portrait_deeplabv3plus/latest.pth
 - 数据规范：[docs/data_spec.md](/Users/kom/work_home/workspace_ai/workspace_seg_train/docs/data_spec.md)
 - 项目历史：[docs/history.md](/Users/kom/work_home/workspace_ai/workspace_seg_train/docs/history.md)
 - 中断恢复：[docs/resume_checklist.md](/Users/kom/work_home/workspace_ai/workspace_seg_train/docs/resume_checklist.md)
+- 训练机说明：[docs/train_machine_guide.md](/Users/kom/work_home/workspace_ai/workspace_seg_train/docs/train_machine_guide.md)
+- 实验模板：[docs/experiment_log_template.md](/Users/kom/work_home/workspace_ai/workspace_seg_train/docs/experiment_log_template.md)
 
 ## 5. 当前状态
 
@@ -105,6 +108,7 @@ bash scripts/export_onnx.sh work_dirs/live_portrait_deeplabv3plus/latest.pth
 
 - 直播人体分割首版方案落地
 - 基线训练配置初始化
+- 数据目录模板初始化
 - 数据检查脚本初始化
 - 训练、评估、导出入口全部改为仓库本地脚本
 - 历史记录与恢复文档初始化
